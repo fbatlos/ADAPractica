@@ -9,7 +9,7 @@ import javax.xml.parsers.DocumentBuilderFactory
 
 //Parsear un xml a dom
 fun main() {
-
+//LEER
     //1º DocumentBuildFactory
     val dbf = DocumentBuilderFactory.newInstance()
     //2ºcon bdf , podemos crear un obj tipo documentbuillder
@@ -59,7 +59,7 @@ fun main() {
 
             val textContetPrecio = elementoPrecio.item(0).textContent
 
-            println("${textContetNombre}, ${textContetPrecio} ")
+            println("${textContetNombre}\t,\t ${textContetPrecio} \n")
 
         }
 
